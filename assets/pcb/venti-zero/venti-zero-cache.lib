@@ -1,0 +1,323 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_02x20_Odd_Even
+#
+DEF Connector_Generic_Conn_02x20_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 1000 50 H V C CNN
+F1 "Connector_Generic_Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -995 0 -1005 1 1 6 N
+S -50 -895 0 -905 1 1 6 N
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 805 0 795 1 1 6 N
+S -50 905 0 895 1 1 6 N
+S -50 950 150 -1050 1 1 10 f
+S 150 -995 100 -1005 1 1 6 N
+S 150 -895 100 -905 1 1 6 N
+S 150 -795 100 -805 1 1 6 N
+S 150 -695 100 -705 1 1 6 N
+S 150 -595 100 -605 1 1 6 N
+S 150 -495 100 -505 1 1 6 N
+S 150 -395 100 -405 1 1 6 N
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+S 150 305 100 295 1 1 6 N
+S 150 405 100 395 1 1 6 N
+S 150 505 100 495 1 1 6 N
+S 150 605 100 595 1 1 6 N
+S 150 705 100 695 1 1 6 N
+S 150 805 100 795 1 1 6 N
+S 150 905 100 895 1 1 6 N
+X Pin_1 1 -200 900 150 R 50 50 1 1 P
+X Pin_10 10 300 500 150 L 50 50 1 1 P
+X Pin_11 11 -200 400 150 R 50 50 1 1 P
+X Pin_12 12 300 400 150 L 50 50 1 1 P
+X Pin_13 13 -200 300 150 R 50 50 1 1 P
+X Pin_14 14 300 300 150 L 50 50 1 1 P
+X Pin_15 15 -200 200 150 R 50 50 1 1 P
+X Pin_16 16 300 200 150 L 50 50 1 1 P
+X Pin_17 17 -200 100 150 R 50 50 1 1 P
+X Pin_18 18 300 100 150 L 50 50 1 1 P
+X Pin_19 19 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 300 900 150 L 50 50 1 1 P
+X Pin_20 20 300 0 150 L 50 50 1 1 P
+X Pin_21 21 -200 -100 150 R 50 50 1 1 P
+X Pin_22 22 300 -100 150 L 50 50 1 1 P
+X Pin_23 23 -200 -200 150 R 50 50 1 1 P
+X Pin_24 24 300 -200 150 L 50 50 1 1 P
+X Pin_25 25 -200 -300 150 R 50 50 1 1 P
+X Pin_26 26 300 -300 150 L 50 50 1 1 P
+X Pin_27 27 -200 -400 150 R 50 50 1 1 P
+X Pin_28 28 300 -400 150 L 50 50 1 1 P
+X Pin_29 29 -200 -500 150 R 50 50 1 1 P
+X Pin_3 3 -200 800 150 R 50 50 1 1 P
+X Pin_30 30 300 -500 150 L 50 50 1 1 P
+X Pin_31 31 -200 -600 150 R 50 50 1 1 P
+X Pin_32 32 300 -600 150 L 50 50 1 1 P
+X Pin_33 33 -200 -700 150 R 50 50 1 1 P
+X Pin_34 34 300 -700 150 L 50 50 1 1 P
+X Pin_35 35 -200 -800 150 R 50 50 1 1 P
+X Pin_36 36 300 -800 150 L 50 50 1 1 P
+X Pin_37 37 -200 -900 150 R 50 50 1 1 P
+X Pin_38 38 300 -900 150 L 50 50 1 1 P
+X Pin_39 39 -200 -1000 150 R 50 50 1 1 P
+X Pin_4 4 300 800 150 L 50 50 1 1 P
+X Pin_40 40 300 -1000 150 L 50 50 1 1 P
+X Pin_5 5 -200 700 150 R 50 50 1 1 P
+X Pin_6 6 300 700 150 L 50 50 1 1 P
+X Pin_7 7 -200 600 150 R 50 50 1 1 P
+X Pin_8 8 300 600 150 L 50 50 1 1 P
+X Pin_9 9 -200 500 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# eec_206832-0601
+#
+DEF eec_206832-0601 J 0 0 Y Y 2 L N
+F0 "J" 0 300 50 H V L CNN
+F1 "eec_206832-0601" 0 400 50 H V L CNN
+F2 "Molex-206832-0601-*" 0 500 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/2068320601_sd.pdf" 0 600 50 H I L CNN
+F4 "No" 0 700 50 H I L CNN "automotive"
+F5 "Conn" 0 800 50 H I L CNN "category"
+F6 "Tin,Nickel" 0 900 50 H I L CNN "contact material"
+F7 "12.5A" 0 1000 50 H I L CNN "current rating"
+F8 "Connectors" 0 1100 50 H I L CNN "device class L1"
+F9 "Headers and Wire Housings" 0 1200 50 H I L CNN "device class L2"
+F10 "unset" 0 1300 50 H I L CNN "device class L3"
+F11 "CONN HEADER VERT 6POS 3MM" 0 1400 50 H I L CNN "digikey description"
+F12 "WM26556-ND" 0 1500 50 H I L CNN "digikey part number"
+F13 "https://www.molex.com/pdm_docs/sd/2068320601_sd.pdf" 0 1600 50 H I L CNN "footprint url"
+F14 "10.16mm" 0 1700 50 H I L CNN "height"
+F15 "yes" 0 1800 50 H I L CNN "is connector"
+F16 "yes" 0 1900 50 H I L CNN "is male"
+F17 "Yes" 0 2000 50 H I L CNN "lead free"
+F18 "cc75f55849923b35" 0 2100 50 H I L CNN "library id"
+F19 "Molex" 0 2200 50 H I L CNN "manufacturer"
+F20 "538-206832-0601" 0 2300 50 H I L CNN "mouser part number"
+F21 "6" 0 2400 50 H I L CNN "number of contacts"
+F22 "2" 0 2500 50 H I L CNN "number of rows"
+F23 "HDR6" 0 2600 50 H I L CNN "package"
+F24 "3mm" 0 2700 50 H I L CNN "pitch"
+F25 "Yes" 0 2800 50 H I L CNN "rohs"
+F26 "+105°C" 0 2900 50 H I L CNN "temperature range high"
+F27 "-40°C" 0 3000 50 H I L CNN "temperature range low"
+F28 "600V" 0 3100 50 H I L CNN "voltage rating"
+DRAW
+S -400 200 -200 -600 1 1 0 f
+S -350 -380 -280 -420 1 1 0 F
+S -350 -180 -280 -220 1 1 0 F
+S -350 20 -280 -20 1 1 0 F
+S -400 200 -200 -600 2 1 0 f
+S -350 -380 -280 -420 2 1 0 F
+S -350 -180 -280 -220 2 1 0 F
+S -350 20 -280 -20 2 1 0 F
+P 2 1 1 0 -270 -400 -200 -400 N
+P 2 1 1 0 -270 -200 -200 -200 N
+P 2 1 1 0 -270 0 -200 0 N
+P 2 2 1 0 -270 -400 -200 -400 N
+P 2 2 1 0 -270 -200 -200 -200 N
+P 2 2 1 0 -270 0 -200 0 N
+X 1 1 -100 0 100 L 40 40 1 1 P
+X 3 3 -100 -200 100 L 40 40 1 1 P
+X 5 5 -100 -400 100 L 40 40 1 1 P
+X 2 2 -100 0 100 L 40 40 2 1 P
+X 4 4 -100 -200 100 L 40 40 2 1 P
+X 6 6 -100 -400 100 L 40 40 2 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+24V
+#
+DEF power_+24V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+24V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +24V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND1
+#
+DEF power_GND1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND1" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND1 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# venti-zero-rescue_venti-rescue_ADS1115IDGSR-venti-cache-venti-cache
+#
+DEF venti-zero-rescue_venti-rescue_ADS1115IDGSR-venti-cache-venti-cache U 0 10 Y Y 1 L N
+F0 "U" 0 100 60 H V C CNN
+F1 "venti-zero-rescue_venti-rescue_ADS1115IDGSR-venti-cache-venti-cache" 0 0 60 H V C CNN
+F2 "DGS0010A_N" 0 -60 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ DGS0010A_N
+ DGS0010A_M
+ DGS0010A_L
+$ENDFPLIST
+DRAW
+P 2 1 1 8 -700 -500 700 -500 N
+P 2 1 1 8 -700 500 -700 -500 N
+P 2 1 1 8 700 -500 700 500 N
+P 2 1 1 8 700 500 -700 500 N
+X ADDR 1 -900 -200 200 R 59 59 1 1 I
+X SCL 10 -900 100 200 R 59 59 1 1 I
+X ALERT_RDY 2 -900 -400 200 R 59 59 1 1 O
+X GND 3 900 -400 200 L 59 59 1 1 W
+X AIN0 4 900 300 200 L 59 59 1 1 I
+X AIN1 5 900 200 200 L 59 59 1 1 I
+X AIN2 6 900 0 200 L 59 59 1 1 I
+X AIN3 7 900 -100 200 L 59 59 1 1 I
+X VDD 8 -900 300 200 R 59 59 1 1 W
+X SDA 9 -900 0 200 R 59 59 1 1 B
+ENDDRAW
+ENDDEF
+#
+# venti-zero-rescue_venti-rescue_ULN2003ADR-venti-cache-venti-cache
+#
+DEF venti-zero-rescue_venti-rescue_ULN2003ADR-venti-cache-venti-cache U 0 10 Y Y 1 L N
+F0 "U" 0 100 60 H V C CNN
+F1 "venti-zero-rescue_venti-rescue_ULN2003ADR-venti-cache-venti-cache" 0 0 60 H V C CNN
+F2 "D0016A_N" 0 -60 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ D0016A_N
+ D0016A_M
+ D0016A_L
+$ENDFPLIST
+DRAW
+P 2 1 1 8 -500 -900 500 -900 N
+P 2 1 1 8 -500 1100 -500 -900 N
+P 2 1 1 8 500 -900 500 1100 N
+P 2 1 1 8 500 1100 -500 1100 N
+X IN1 1 -700 700 200 R 59 59 1 1 I
+X OUT7 10 700 -500 200 L 59 59 1 1 O
+X OUT6 11 700 -300 200 L 59 59 1 1 O
+X OUT5 12 700 -100 200 L 59 59 1 1 O
+X OUT4 13 700 100 200 L 59 59 1 1 O
+X OUT3 14 700 300 200 L 59 59 1 1 O
+X OUT2 15 700 500 200 L 59 59 1 1 O
+X OUT1 16 700 700 200 L 59 59 1 1 O
+X IN2 2 -700 500 200 R 59 59 1 1 I
+X IN3 3 -700 300 200 R 59 59 1 1 I
+X IN4 4 -700 100 200 R 59 59 1 1 I
+X IN5 5 -700 -100 200 R 59 59 1 1 I
+X IN6 6 -700 -300 200 R 59 59 1 1 I
+X IN7 7 -700 -500 200 R 59 59 1 1 I
+X GND 8 700 -700 200 L 59 59 1 1 W
+X COM 9 -700 900 200 R 59 59 1 1 W
+ENDDRAW
+ENDDEF
+#
+# venti-zero-rescue_venti-rescue_sensor_mini-p-venti-cache-venti-cache
+#
+DEF venti-zero-rescue_venti-rescue_sensor_mini-p-venti-cache-venti-cache U 0 40 Y Y 1 F N
+F0 "U" 0 400 50 H V C CNN
+F1 "venti-zero-rescue_venti-rescue_sensor_mini-p-venti-cache-venti-cache" 0 300 50 H V C CNN
+F2 "" 0 300 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+DRAW
+S 200 200 300 150 0 1 0 N
+S 250 -300 -250 250 0 1 0 N
+S 250 50 300 0 0 1 0 N
+X V 1 -150 -400 100 U 50 50 1 1 I
+X GND 2 -50 -400 100 U 50 50 1 1 I
+X V_out 3 50 -400 100 U 50 50 1 1 O
+X NC 4 150 -400 100 U 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+#End Library

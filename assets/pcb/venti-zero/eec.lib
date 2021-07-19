@@ -1,0 +1,60 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Molex 206832-0601
+#
+DEF 206832-0601 J 0 0 Y Y 2 L N
+F0 "J" 0 300 50 H V L CNN 
+F1 "206832-0601" 0 400 50 H V L CNN 
+F2 "Molex-206832-0601-*" 0 500 50 H I L CNN 
+F3 "https://www.molex.com/pdm_docs/sd/2068320601_sd.pdf" 0 600 50 H I L CNN 
+F4 "No" 0 700 50 H I L CNN "automotive"
+F5 "Conn" 0 800 50 H I L CNN "category"
+F6 "Tin,Nickel" 0 900 50 H I L CNN "contact material"
+F7 "12.5A" 0 1000 50 H I L CNN "current rating"
+F8 "Connectors" 0 1100 50 H I L CNN "device class L1"
+F9 "Headers and Wire Housings" 0 1200 50 H I L CNN "device class L2"
+F10 "unset" 0 1300 50 H I L CNN "device class L3"
+F11 "CONN HEADER VERT 6POS 3MM" 0 1400 50 H I L CNN "digikey description"
+F12 "WM26556-ND" 0 1500 50 H I L CNN "digikey part number"
+F13 "https://www.molex.com/pdm_docs/sd/2068320601_sd.pdf" 0 1600 50 H I L CNN "footprint url"
+F14 "10.16mm" 0 1700 50 H I L CNN "height"
+F15 "yes" 0 1800 50 H I L CNN "is connector"
+F16 "yes" 0 1900 50 H I L CNN "is male"
+F17 "Yes" 0 2000 50 H I L CNN "lead free"
+F18 "cc75f55849923b35" 0 2100 50 H I L CNN "library id"
+F19 "Molex" 0 2200 50 H I L CNN "manufacturer"
+F20 "538-206832-0601" 0 2300 50 H I L CNN "mouser part number"
+F21 "6" 0 2400 50 H I L CNN "number of contacts"
+F22 "2" 0 2500 50 H I L CNN "number of rows"
+F23 "HDR6" 0 2600 50 H I L CNN "package"
+F24 "3mm" 0 2700 50 H I L CNN "pitch"
+F25 "Yes" 0 2800 50 H I L CNN "rohs"
+F26 "+105°C" 0 2900 50 H I L CNN "temperature range high"
+F27 "-40°C" 0 3000 50 H I L CNN "temperature range low"
+F28 "600V" 0 3100 50 H I L CNN "voltage rating"
+DRAW
+X 1 1 -100 0 100 L 40 40 1 1 P 
+X 3 3 -100 -200 100 L 40 40 1 1 P 
+X 5 5 -100 -400 100 L 40 40 1 1 P 
+S -400 200 -200 -600 1 1 0 f
+S -350 20 -280 -20 1 1 0 F
+P 2 1 1 0 -270 0 -200 0 N
+S -350 -180 -280 -220 1 1 0 F
+P 2 1 1 0 -270 -200 -200 -200 N
+S -350 -380 -280 -420 1 1 0 F
+P 2 1 1 0 -270 -400 -200 -400 N
+X 2 2 -100 0 100 L 40 40 2 1 P 
+X 4 4 -100 -200 100 L 40 40 2 1 P 
+X 6 6 -100 -400 100 L 40 40 2 1 P 
+S -400 200 -200 -600 2 1 0 f
+S -350 20 -280 -20 2 1 0 F
+P 2 2 1 0 -270 0 -200 0 N
+S -350 -180 -280 -220 2 1 0 F
+P 2 2 1 0 -270 -200 -200 -200 N
+S -350 -380 -280 -420 2 1 0 F
+P 2 2 1 0 -270 -400 -200 -400 N
+ENDDRAW
+ENDDEF
+#
+# End Library

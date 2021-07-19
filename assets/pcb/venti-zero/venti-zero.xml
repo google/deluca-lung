@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/dsuo/src/venti/assets/pcb/venti-zero/venti-zero.sch</source>
+    <date>Wednesday, March 31, 2021 at 04:25:04 PM</date>
+    <tool>Eeschema (5.1.6-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Venti Zero</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2021-03-31</date>
+        <source>venti-zero.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Copyright 2021 Google LLC"/>
+        <comment number="3" value="License: Apache 2.0"/>
+        <comment number="4" value="Author: Daniel Suo"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>GPIO_CONNECTOR</value>
+      <footprint>lib:PinSocket_2x20_P2.54mm_Vertical_Centered_Anchor</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C77771F</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>lib:MountingHole_2.7mm_M2.5_uHAT_RPi</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7C4C81</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>lib:MountingHole_2.7mm_M2.5_uHAT_RPi</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7C7FBC</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>lib:MountingHole_2.7mm_M2.5_uHAT_RPi</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7C8014</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>lib:MountingHole_2.7mm_M2.5_uHAT_RPi</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7C8030</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ADS1115IDGSR</value>
+      <footprint>lib:ADS1115IDGSR</footprint>
+      <libsource lib="venti-cache" part="venti-rescue_ADS1115IDGSR-venti-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6065B8B4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>EXVALVE</value>
+      <footprint>lib:1715721</footprint>
+      <libsource lib="venti-cache" part="venti-rescue_screw-terminal-venti-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6065D7BF</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>INVALVE</value>
+      <footprint>lib:1715721</footprint>
+      <libsource lib="venti-cache" part="venti-rescue_screw-terminal-venti-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6065F625</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ULN2003ADR</value>
+      <footprint>lib:ULN2003ADR</footprint>
+      <libsource lib="venti-cache" part="venti-rescue_ULN2003ADR-venti-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60660A2B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>sensor_mini-p</value>
+      <footprint>lib:MINI-P-Sensor-Horizontal</footprint>
+      <libsource lib="venti-cache" part="venti-rescue_sensor_mini-p-venti-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60661AEB</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>sensor_mini-p</value>
+      <footprint>lib:MINI-P-Sensor-Horizontal</footprint>
+      <libsource lib="venti-cache" part="venti-rescue_sensor_mini-p-venti-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60662D68</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>24V IN</value>
+      <footprint>lib:1715721</footprint>
+      <libsource lib="venti-cache" part="venti-rescue_screw-terminal-venti-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6065C41C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="venti-cache" part="venti-rescue_ADS1115IDGSR-venti-cache">
+      <footprints>
+        <fp>DGS0010A_N</fp>
+        <fp>DGS0010A_M</fp>
+        <fp>DGS0010A_L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">venti-rescue_ADS1115IDGSR-venti-cache</field>
+        <field name="Footprint">DGS0010A_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT_RDY" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="BiDi"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="venti-cache" part="venti-rescue_ULN2003ADR-venti-cache">
+      <footprints>
+        <fp>D0016A_N</fp>
+        <fp>D0016A_M</fp>
+        <fp>D0016A_L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">venti-rescue_ULN2003ADR-venti-cache</field>
+        <field name="Footprint">D0016A_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="input"/>
+        <pin num="2" name="IN2" type="input"/>
+        <pin num="3" name="IN3" type="input"/>
+        <pin num="4" name="IN4" type="input"/>
+        <pin num="5" name="IN5" type="input"/>
+        <pin num="6" name="IN6" type="input"/>
+        <pin num="7" name="IN7" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="COM" type="power_in"/>
+        <pin num="10" name="OUT7" type="output"/>
+        <pin num="11" name="OUT6" type="output"/>
+        <pin num="12" name="OUT5" type="output"/>
+        <pin num="13" name="OUT4" type="output"/>
+        <pin num="14" name="OUT3" type="output"/>
+        <pin num="15" name="OUT2" type="output"/>
+        <pin num="16" name="OUT1" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="venti-cache" part="venti-rescue_screw-terminal-venti-cache">
+      <footprints>
+        <fp>CONN_1715721_PXC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">venti-rescue_screw-terminal-venti-cache</field>
+        <field name="Footprint">CONN_1715721_PXC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="venti-cache" part="venti-rescue_sensor_mini-p-venti-cache">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">venti-rescue_sensor_mini-p-venti-cache</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="V_out" type="output"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="venti-cache">
+      <uri>/Users/dsuo/src/venti/assets/pcb/venti-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad17)">
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="U2" pin="8"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J1" pin="39"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="34"/>
+      <node ref="J1" pin="30"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J1" pin="20"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="25"/>
+    </net>
+    <net code="5" name="/GPIO2_SDA1">
+      <node ref="J1" pin="3"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="6" name="/GPIO3_SCL1">
+      <node ref="U2" pin="10"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="7" name="/GPIO4_GPIO_GCLK">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="8" name="/GPIO17">
+      <node ref="J1" pin="11"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="9" name="/GPIO27_GEN2">
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="10" name="/GPIO22_GEN3">
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="11" name="/GPIO10_SPI_MOSI">
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="12" name="/GPIO9_SPI_MISO">
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="13" name="/GPIO11_SPI_SCLK">
+      <node ref="J1" pin="23"/>
+    </net>
+    <net code="14" name="/ID_SD">
+      <node ref="J1" pin="27"/>
+    </net>
+    <net code="15" name="/GPIO5">
+      <node ref="U2" pin="2"/>
+      <node ref="J1" pin="29"/>
+    </net>
+    <net code="16" name="/GPIO6">
+      <node ref="J1" pin="31"/>
+    </net>
+    <net code="17" name="/GPIO13">
+      <node ref="J1" pin="33"/>
+    </net>
+    <net code="18" name="/GPIO19">
+      <node ref="J1" pin="35"/>
+    </net>
+    <net code="19" name="/GPIO26">
+      <node ref="J1" pin="37"/>
+    </net>
+    <net code="20" name="/GPIO15_RXD0">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="21" name="/GPIO18_GEN1">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="22" name="/GPIO23_GEN4">
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="23" name="/GPIO24_GEN5">
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="24" name="/GPIO25_GEN6">
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="25" name="/GPIO8_SPI_CE0_N">
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="26" name="/GPIO7_SPI_CE1_N">
+      <node ref="J1" pin="26"/>
+    </net>
+    <net code="27" name="/ID_SC">
+      <node ref="J1" pin="28"/>
+    </net>
+    <net code="28" name="/GPIO12">
+      <node ref="J1" pin="32"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="29" name="/GPIO16">
+      <node ref="J1" pin="36"/>
+    </net>
+    <net code="30" name="/GPIO20">
+      <node ref="J1" pin="38"/>
+    </net>
+    <net code="31" name="/GPIO21">
+      <node ref="J1" pin="40"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="34" name="Net-(J4-Pad1)">
+      <node ref="U4" pin="12"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="10"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="35" name="Net-(J3-Pad1)">
+      <node ref="U4" pin="13"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U4" pin="15"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="36" name="/GPIO14_TXD0">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad3)">
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="39" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="40" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="41" name="GND1">
+      <node ref="U4" pin="8"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="42" name="+24V">
+      <node ref="J4" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U4" pin="9"/>
+    </net>
+  </nets>
+</export>

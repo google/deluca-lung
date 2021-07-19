@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name venti-cache)(type Legacy)(uri /Users/dsuo/src/venti/assets/pcb/venti-cache.lib)(options "")(descr ""))
+  (lib (name venti-zero-rescue)(type Legacy)(uri ${KIPRJMOD}/venti-zero-rescue.lib)(options "")(descr ""))
+  (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/eec.lib)(options "")(descr ""))
+)
